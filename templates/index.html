@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Top Olympians</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mate&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+<body>
+
+<div id="page1">
+    
+<h1>Olympians with the Most Metals</h1>
+
+<p id="intro"> Click any of the Olympian's names below to learn more about them! They are in order of most to least medals <i>(although they all have many!).</i> </p>
+
+    <ol>
+        {% for pair in pairs_list %}
+        <li><a href="{{ url_for('olympian', num=pair[0])}}">{{ pair[1] }}</a></li>
+    {% endfor %}
+    </ol>
+
+
+</div>
+    
+</body>
+</html>
