@@ -14,7 +14,7 @@ oly_list = convert_to_dict('olympians.csv')
 
 pairs_list = []
 for olympian in oly_list:
-    pairs_list.append( (olympian['rank'], olympian['name'] ) )
+    pairs_list.append( (olympian['rank'], olympian['name'], olympian['medals'] ) )
 
 @app.route('/')
 def index():

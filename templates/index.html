@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Top Olympians</title>
+	<title>Top Olympic Athletes</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mate&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
@@ -14,13 +14,13 @@
 
 <div id="page1">
     
-<h1>Olympians with the Most Metals</h1>
+<h1>Olympic Athletes with the Most Medals</h1>
 
-<p id="intro"> Click any of the Olympian's names below to learn more about them! They are in order of most to least medals <i>(although they all have many!).</i> </p>
+<p id="intro"> Click any of the athlete's names below to learn more about them! They are in order of most to least medals <i>(although they all have many).</i> All information on this website is from <a href="https://www.britannica.com/topic/list-of-athletes-with-the-most-Olympic-medals" target="_blank">Britannica.</a></p>
 
     <ol>
         {% for pair in pairs_list %}
-        <li><a href="{{ url_for('olympian', num=pair[0])}}">{{ pair[1] }}</a></li>
+        <li><a href="{{ url_for('olympian', num=pair[0])}}">{{ pair[1] }}:</a> {{ pair[2] }} medals</li>
     {% endfor %}
     </ol>
 
