@@ -16,13 +16,15 @@
     
 <h1>Olympic Athletes with the Most Medals</h1>
 
-<p id="intro"> Click any of the athlete's names below to learn more about them! They are in order of most to least medals <i>(although they all have many).</i> All information on this website is from <a href="https://www.britannica.com/topic/list-of-athletes-with-the-most-Olympic-medals" target="_blank">Britannica.</a></p>
+<p id="intro"> Click any of the athlete's names below to learn more about them! They are in order of most to least medals (although they all have many). </p>
+    
+<p id="attribution"><i>All information on this website is from <a href="https://www.britannica.com/topic/list-of-athletes-with-the-most-Olympic-medals" target="_blank">Britannica.</a></i></p>
 
-    <ol>
-        {% for pair in pairs_list %}
-        <li><a href="{{ url_for('olympian', num=pair[0])}}">{{ pair[1] }}:</a> {{ pair[2] }} medals</li>
-    {% endfor %}
-    </ol>
+<ol>
+{% for pair in pairs_list %}
+<li><a href="{{ url_for('olympian', num=pair[0])}}">{{ pair[1] }}:</a> {{ pair[2] }} medals</li>
+{% endfor %}
+</ol>
 
 
 </div>

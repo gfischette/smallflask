@@ -27,7 +27,8 @@ h1 {
     font-size: 1.2rem;
 }
 
-#intro {
+
+#intro, #attribution {
     text-align: center;
     line-height: 1.7rem;
 }
