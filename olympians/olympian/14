@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Jenny Thompson</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mate&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="page2">
+    
+<h1>Jenny Thompson</h1>
+<h4>Born: 2/26/1973</h4>
+<h4>Country: United States of America</h4>
+<h4>Sport: Swimming</h4>
+
+<p> Jenny Thompson has <b>12</b> medals in total, <b>8</b> being gold medals. </p>
+
+<p><a href="../index.html">Return to the main page</a> to learn more about a different Olympic athlete.</p>
+
+</div>
+    
+</body>
+</html>

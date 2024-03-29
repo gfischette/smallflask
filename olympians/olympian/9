@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Ono Takashi</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mate&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="page2">
+    
+<h1>Ono Takashi</h1>
+<h4>Born: 7/26/1931</h4>
+<h4>Country: Japan</h4>
+<h4>Sport: Gymnastics</h4>
+
+<p> Ono Takashi has <b>13</b> medals in total, <b>5</b> being gold medals. </p>
+
+<p><a href="../index.html">Return to the main page</a> to learn more about a different Olympic athlete.</p>
+
+</div>
+    
+</body>
+</html>

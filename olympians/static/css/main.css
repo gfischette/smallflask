@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+} 
+
+* {
+    box-sizing: inherit;
+} 
+
+body {
+    background-color: #ffebcd;
+    font-family: 'Mate', 'Lucida Bright', 'Times New Roman', serif;
+    margin: 1rem 0;
+}
+
+h1 {
+    font-family: 'Josefin Sans', 'Verdana', 'Futura', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+#page1, #page2 {
+    background-color: #fff;
+    margin: auto;
+    max-width: 550px;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+#intro {
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+ol {
+    line-height: 2rem;
+
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        margin: 0;
+    }
+    #page1 {
+        background-color: #ffebcd;
+    }
+    #page2 {
+        text-align: center;
+        background-color: #ffebcd;
+    }
+
+}

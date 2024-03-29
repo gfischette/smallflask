@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Kato Sawao</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mate&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="page2">
+    
+<h1>Kato Sawao</h1>
+<h4>Born: 10/11/1946</h4>
+<h4>Country: Japan</h4>
+<h4>Sport: Gymnastics</h4>
+
+<p> Kato Sawao has <b>12</b> medals in total, <b>8</b> being gold medals. </p>
+
+<p><a href="../index.html">Return to the main page</a> to learn more about a different Olympic athlete.</p>
+
+</div>
+    
+</body>
+</html>
